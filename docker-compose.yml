@@ -159,6 +159,7 @@ services:
     user: root
     ports:
       - 5044:5044
+      - 5045:5045
       - 5001:5001/udp
       - 5001:5001/tcp
     volumes:

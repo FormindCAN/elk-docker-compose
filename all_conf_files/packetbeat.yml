@@ -74,10 +74,10 @@ packetbeat.protocols:
   # Configure the DHCP for IPv4 ports.
   ports: [67, 68]
 
-- type: dns
+#- type: dns
   # Configure the ports where to listen for DNS traffic. You can disable
   # the DNS protocol by commenting out the list of ports.
-  ports: [53]
+#  ports: [53]
 
 #- type: http
 #  # Configure the ports where to listen for HTTP traffic. You can disable

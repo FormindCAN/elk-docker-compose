@@ -10,3 +10,5 @@
   path.config: "/usr/share/logstash/pipeline/pfsense.conf"
 - pipeline.id: proxy_pipeline
   path.config: "/usr/share/logstash/pipeline/proxy.conf"
+- pipeline.id: dns_pipeline
+  path.config: "/usr/share/logstash/pipeline/dns.conf"
