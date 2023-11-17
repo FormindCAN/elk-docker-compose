@@ -1,0 +1,34 @@
+# This file is where you define your pipelines. You can define multiple.
+# For more information on multiple pipelines, see the documentation:
+#   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
+
+- pipeline.id: testlogstash_pipeline
+  path.config: "/usr/share/logstash/pipeline/testlogstash.conf"
+- pipeline.id: beats_pipeline
+  path.config: "/usr/share/logstash/pipeline/beats.conf"
+- pipeline.id: ps_pipeline
+  path.config: "/usr/share/logstash/pipeline/ps.conf"
+- pipeline.id: bash_pipeline
+  path.config: "/usr/share/logstash/pipeline/bash.conf"
+- pipeline.id: pfsense_pipeline
+  path.config: "/usr/share/logstash/pipeline/pfsense.conf"
+- pipeline.id: proxy_pipeline
+  path.config: "/usr/share/logstash/pipeline/proxy.conf"
+- pipeline.id: botes-dhcp_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-dhcp.conf"
+- pipeline.id: botes-http_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-http.conf"
+- pipeline.id: botes-icmp_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-icmp.conf"
+- pipeline.id: botes-ip_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-ip.conf"
+- pipeline.id: botes-ldap_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-ldap.conf"
+- pipeline.id: botes-mapi_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-mapi.conf"
+- pipeline.id: botes-sip_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-sip.conf"
+- pipeline.id: botes-smb_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-smb.conf"
+- pipeline.id: botes-snmp_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-snmp.conf"
