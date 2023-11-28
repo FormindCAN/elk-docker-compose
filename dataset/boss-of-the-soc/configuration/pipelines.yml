@@ -32,3 +32,13 @@
   path.config: "/usr/share/logstash/pipeline/botes-smb.conf"
 - pipeline.id: botes-snmp_pipeline
   path.config: "/usr/share/logstash/pipeline/botes-snmp.conf"
+- pipeline.id: botes-suricata_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-suricata.conf"
+- pipeline.id: botes-wineventlog-application_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-wineventlog-application.conf"
+- pipeline.id: botes-wineventlog-system_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-wineventlog-system.conf"
+- pipeline.id: botes-winregistry_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-winregistry.conf"
+- pipeline.id: botes-xmlwineventlog_pipeline
+  path.config: "/usr/share/logstash/pipeline/botes-xmlwineventlog.conf"
